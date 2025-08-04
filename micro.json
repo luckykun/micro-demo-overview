@@ -1,0 +1,6 @@
+{
+  "name": "overview",
+  "filename": "app.min",
+  "port": "8001",
+  "cssExtract": true
+}
