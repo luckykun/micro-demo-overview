@@ -5,8 +5,11 @@ const Component = () => {
   console.log('data', data);
 
   return (
-    <div style={{ padding: 24, display: 'flex', gap: '8px' }}>
-      我是一个子应用，名字叫overview。可以集成到root应用中进行加载。
+    <div style={{ display: 'flex', justifyContent: 'center' }}>
+      <UI.Result
+        status="success"
+        title="我是一个独立开发和部署的微应用，名字叫overview"
+      />
     </div>
   );
 };
